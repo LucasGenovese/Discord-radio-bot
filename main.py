@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from decouple import config
 
-TOKEN = config('TOKEN')
+TOKEN = 'MTAwODg5ODEyMDY4OTY2MDA2NA.GU6TwT.tScKSU39olqXR_YX-N36Nhdo17Efv_HDQ5hlzQ'
 client = commands.Bot(command_prefix='.')
 
 @client.event
